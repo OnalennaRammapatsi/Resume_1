@@ -1,18 +1,30 @@
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .menu{ 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: medium;
     font-style: oblique; 
     margin-left: 0%;   
-    height:fit-content;
-    width:fit-content;
-    background-color: blue;
+    height:150px;
+    width:150px;
+    background-color: rgb(207, 78, 78);
+    padding: 3%;
+    font-size: medium;
 }
 
 .heading{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
-  
-    background-color: rgb(233, 88, 213);
+    padding: 3%;
+    background-color: white; 
     background-image: -moz-linear-gradient();
+}
+body{
+    background-color: rgb(162, 226, 43);
+}
+.Menu {
+    font-size: larger;
+}
+
+.footer {background-color: #ffffff;
 }
