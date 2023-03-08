@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+        background: lightgray;
+        color: black;
+    
+}
+.wrapper{
+    width: 1500;
+    margin: auto;
+}
+header{
+    text-align: center;
+    background: #262626;
+    width: 100%;
+    z-index: 12;
+    
+}
+.logo{
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: bifnoodletitling;
+    color: #fff;
+    letter-spacing: 5px;
+}
+.navigator{
+    float: right;
+    line-height: 100px;
+}
+.navigator a{
+    text-decoration: none;
+    font-family: bifnoodletitling;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+}
+#banner{
+    background-image: url(../images/Banner1.jpg) ;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content{
+    display: static ;
+}
+/* This displays my profile as a rounded shape*/
+img{ 
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.footer{
+    background-color: rgb(22, 27, 66);
+    text-align: center;
+}
+

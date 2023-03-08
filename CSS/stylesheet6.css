@@ -1,0 +1,27 @@
+
+
+
+img{ 
+    border-radius: 50%;
+    border: 5px solid white;
+    border-left: 5%;
+}
+
+#education, #experience, #skill{
+    text-align: center;
+}
+
+#skill2, #skill4{
+    position: relative;
+    left: 10px;
+}
+
+#footer{
+    margin-top: 100%;
+    padding: 3%;
+}
+
+.Context{
+margin-left: 50px;
+}
+
